@@ -2,68 +2,70 @@ html
 {
   box-sizing:border-box;
   font-family: "karla";
-  font-size: 16px;
+  font-size: 16 px;
   font-weight: 400;
 }
 body
 {
-  padding: 20px;
+  padding: 20 px;
 }
 h2,h4,p
 {
     margin:0;
 }
-*,*:before,*:after
+*,
+*:before,
+*:after
 {
     box-sizing: inherit;
 }
 #card
 {
-    box-shadow: 2px 3px 7px 0px rgba(0,0,0,0,0.35);
-    border-radius: 5px;
+    box-shadow: 2 px 3 px 7 px 0 px rgba (0,0,0,0,0.35);
+    border-radius: 5 px;
     overflow: hidden;
-    width: 600px;
+    width: 600 px;
     height:400 px;
 }
 #top-section
 {
-  width: 100%;
-  height: 45%;
-  padding: 25px;
+  width: 100 %;
+  height: 45 %;
+  padding: 25 px;
 }
 #bottom-section
 {
-    width: 100%;
-    height: 55%;
+    width: 100 %;
+    height: 55 %;
     colour:white;
 }
 #bottom-left-section
 {
     display: inline-block;
-    width: 50%;
-    height: 100%;
+    width: 50 %;
+    height: 100 %;
     vertical-align: top;
     background-color: #2ab2af;
-    padding:25px;
+    padding:25 px;
 }
 #bottom-right-section
 {
     display: inline-block;
-    width: 50%;
-    height: 100%;
+    width: 50 %;
+    height: 100 %;
     vertical-align: top;
     background-color:#2ebfbd;
-    padding:25px;
+    padding:25 px;
 }
 #top-section h2
 {
     color: #2ab2af;
-    margin-bottom: 20px;
+    margin-bottom: 20 px;
 }
 #top-section h4
 {
     color: #c0df34;
-    margin-bottom: 10px;
+    margin-bottom: 10 px;
 }
 #top-section p
 {
@@ -74,29 +76,29 @@ button
     color: white;
     background-color: #c0df34;
     border: none;
-    padding: 10px;
-    width: 100%;
-    border-radius: 5px;;
+    padding: 10 px;
+    width: 100 %;
+    border-radius: 5 px;;
 }
 botton:hover
 {
     cursor: pointer;
     background-color: #a9c42d;
-    transform: scale(1.02);
+    transform: scale (1.02);
 }
 #price
 {
     font-weight: 700;
-    font-size: 1.4rem;
+    font-size: 1.4 rem;
 }
 #bottom-left-section h4
 { 
-    margin-bottom: 25px;
+    margin-bottom: 25 px;
 }
 #bottom-left-section p
 {
-    font-size: 0.8rem;
-    margin-bottom: 40px;
+    font-size: 0.8 rem;
+    margin-bottom: 40 px;
 }
 #price-frequency,#price
 {
@@ -105,19 +107,19 @@ botton:hover
 #price-frequency
 {
     position: relative;
-    top:-3px;
-    font-size: 0.8rem;
+    top:-3 px;
+    font-size: 0.8 rem;
     opacity: 0.7;
-    margin-left:5px;
+    margin-left:5 px;
 }
 #price-conatiner
 {
-    margin-bottom:10px;
+    margin-bottom:10 px;
 }
 ul
 {
     padding: 0;
     list-style:none;
-    font-size: 0.8rem;
+    font-size: 0.8 rem;
     opacity: 0.8;
 }
